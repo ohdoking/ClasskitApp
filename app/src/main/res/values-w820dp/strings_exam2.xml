@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="exam2_year_start">2013</string>
+    <string name="exam2_year_end">2015</string>
+    <string name="exam2_number">3</string>
+
+
+
+    <!-- @@@@@@@ YEAR 2013 @@@@@@@ -->
+    <string name="exam2_13_number">4</string>
+    <string-array name="exam2_13_month">
+        <item>03</item>
+        <item>06</item>
+        <item>09</item>
+        <item>11</item>
+    </string-array>
+    <string name="exam2_1303_name_full">2014학년도 3월 모의고사</string>
+    <string name="exam2_1303_name_simple">2013년 3월 모의고사</string>
+    <string name="exam2_1303_url">http://ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201303132</string>
+    <string name="exam2_1303_implemented_year">2013</string>
+    <string name="exam2_1303_implemented_month">3</string>
+    <string name="exam2_1303_implemented_date">13</string>
+    <string name="exam2_1303_subject_number">14</string>
+
+    <string name="exam2_1303_subject_1_name">국어 A형</string>
+    <string name="exam2_1303_subject_1_1_raw">91</string>
+    <string name="exam2_1303_subject_1_2_raw">86</string>
+    <string name="exam2_1303_subject_1_3_raw">78</string>
+    <string name="exam2_1303_subject_1_4_raw">67</string>
+
+    <string name="exam2_1303_subject_2_name">국어 B형</string>
+    <string name="exam2_1303_subject_2_1_raw">90</string>
+    <string name="exam2_1303_subject_2_2_raw">83</string>
+    <string name="exam2_1303_subject_2_3_raw">77</string>
+    <string name="exam2_1303_subject_2_4_raw">67</string>
+
+    <string name="exam2_1303_subject_3_name">수학 A형</string>
+    <string name="exam2_1303_subject_3_1_raw">78</string>
+    <string name="exam2_1303_subject_3_2_raw">63</string>
+    <string name="exam2_1303_subject_3_3_raw">47</string>
+    <string name="exam2_1303_subject_3_4_raw">33</string>
+
+    <string name="exam2_1303_subject_4_name">수학 B형</string>
+    <string name="exam2_1303_subject_4_1_raw">85</string>
+    <string name="exam2_1303_subject_4_2_raw">71</string>
+    <string name="exam2_1303_subject_4_3_raw">58</string>
+    <string name="exam2_1303_subject_4_4_raw">43</string>
+
+    <string name="exam2_1303_subject_5_name">영어 A형</string>
+    <string name="exam2_1303_subject_5_1_raw">66</string>
+    <string name="exam2_1303_subject_5_2_raw">50</string>
+    <string name="exam2_1303_subject_5_3_raw">39</string>
+    <string name="exam2_1303_subject_5_4_raw">31</string>
+
+    <string name="exam2_1303_subject_6_name">영어 B형</string>
+    <string name="exam2_1303_subject_6_1_raw">93</string>
+    <string name="exam2_1303_subject_6_2_raw">84</string>
+    <string name="exam2_1303_subject_6_3_raw">70</string>
+    <string name="exam2_1303_subject_6_4_raw">53</string>
+
+    <string name="exam2_1303_subject_7_name">도덕</string>
+    <string name="exam2_1303_subject_7_1_raw">47</string>
+    <string name="exam2_1303_subject_7_2_raw">44</string>
+    <string name="exam2_1303_subject_7_3_raw">41</string>
+    <string name="exam2_1303_subject_7_4_raw">37</string>
+
+    <string name="exam2_1303_subject_8_name">일반사회</string>
+    <string name="exam2_1303_subject_8_1_raw">42</string>
+    <string name="exam2_1303_subject_8_2_raw">39</string>
+    <string name="exam2_1303_subject_8_3_raw">34</string>
+    <string name="exam2_1303_subject_8_4_raw">30</string>
+
+    <string name="exam2_1303_subject_9_name">지리</string>
+    <string name="exam2_1303_subject_9_1_raw">46</string>
+    <string name="exam2_1303_subject_9_2_raw">44</string>
+    <string name="exam2_1303_subject_9_3_raw">39</string>
+    <string name="exam2_1303_subject_9_4_raw">35</string>
+
+    <string name="exam2_1303_subject_10_name">한국사</string>
+    <string name="exam2_1303_subject_10_1_raw">47</string>
+    <string name="exam2_1303_subject_10_2_raw">41</string>
+    <string name="exam2_1303_subject_10_3_raw">33</string>
+    <string name="exam2_1303_subject_10_4_raw">26</string>
+
+    <string name="exam2_1303_subject_11_name">물리1</string>
+    <string name="exam2_1303_subject_11_1_raw">42</string>
+    <string name="exam2_1303_subject_11_2_raw">38</string>
+    <string name="exam2_1303_subject_11_3_raw">33</string>
+    <string name="exam2_1303_subject_11_4_raw">28</string>
+
+    <string name="exam2_1303_subject_12_name">화학1</string>
+    <string name="exam2_1303_subject_12_1_raw">44</string>
+    <string name="exam2_1303_subject_12_2_raw">39</string>
+    <string name="exam2_1303_subject_12_3_raw">33</string>
+    <string name="exam2_1303_subject_12_4_raw">27</string>
+
+    <string name="exam2_1303_subject_13_name">생명과학1</string>
+    <string name="exam2_1303_subject_13_1_raw">42</string>
+    <string name="exam2_1303_subject_13_2_raw">37</string>
+    <string name="exam2_1303_subject_13_3_raw">32</string>
+    <string name="exam2_1303_subject_13_4_raw">26</string>
+
+    <string name="exam2_1303_subject_14_name">지구과학1</string>
+    <string name="exam2_1303_subject_14_1_raw">36</string>
+    <string name="exam2_1303_subject_14_2_raw">30</string>
+    <string name="exam2_1303_subject_14_3_raw">26</string>
+    <string name="exam2_1303_subject_14_4_raw">21</string>
+
+
+    <string name="exam2_1306_name_full">2014학년도 6월 모의고사</string>
+    <string name="exam2_1306_name_simple">2013년 6월 모의고사</string>
+    <string name="exam2_1306_url">http://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201306052</string>
+    <string name="exam2_1306_implemented_year">2013</string>
+    <string name="exam2_1306_implemented_month">6</string>
+    <string name="exam2_1306_implemented_date">5</string>
+    <string name="exam2_1306_subject_number">20</string>
+
+    <string name="exam2_1306_subject_1_name">국어 A형</string>
+    <string name="exam2_1306_subject_1_1_raw">98</string>
+    <string name="exam2_1306_subject_1_2_raw">94</string>
+    <string name="exam2_1306_subject_1_3_raw">88</string>
+    <string name="exam2_1306_subject_1_4_raw">79</string>
+
+    <string name="exam2_1306_subject_2_name">국어 B형</string>
+    <string name="exam2_1306_subject_2_1_raw">96</string>
+    <string name="exam2_1306_subject_2_2_raw">92</string>
+    <string name="exam2_1306_subject_2_3_raw">85</string>
+    <string name="exam2_1306_subject_2_4_raw">74</string>
+
+    <string name="exam2_1306_subject_3_name">수학 A형</string>
+    <string name="exam2_1306_subject_3_1_raw">81</string>
+    <string name="exam2_1306_subject_3_2_raw">67</string>
+    <string name="exam2_1306_subject_3_3_raw">50</string>
+    <string name="exam2_1306_subject_3_4_raw">34</string>
+
+    <string name="exam2_1306_subject_4_name">수학 B형</string>
+    <string name="exam2_1306_subject_4_1_raw">88</string>
+    <string name="exam2_1306_subject_4_2_raw">75</string>
+    <string name="exam2_1306_subject_4_3_raw">62</string>
+    <string name="exam2_1306_subject_4_4_raw">47</string>
+
+    <string name="exam2_1306_subject_5_name">영어 A형</string>
+    <string name="exam2_1306_subject_5_1_raw">73</string>
+    <string name="exam2_1306_subject_5_2_raw">56</string>
+    <string name="exam2_1306_subject_5_3_raw">42</string>
+    <string name="exam2_1306_subject_5_4_raw">31</string>
+
+    <string name="exam2_1306_subject_6_name">영어 B형</string>
+    <string name="exam2_1306_subject_6_1_raw">97</string>
+    <string name="exam2_1306_subject_6_2_raw">90</string>
+    <string name="exam2_1306_subject_6_3_raw">76</string>
+    <string name="exam2_1306_subject_6_4_raw">59</string>
+
+    <string name="exam2_1306_subject_7_name">생활과 윤리</string>
+    <string name="exam2_1306_subject_7_1_raw">50</string>
+    <string name="exam2_1306_subject_7_2_raw">50</string>
+    <string name="exam2_1306_subject_7_3_raw">46</string>
+    <string name="exam2_1306_subject_7_4_raw">44</string>
+
+    <string name="exam2_1306_subject_8_name">윤리와 사상</string>
+    <string name="exam2_1306_subject_8_1_raw">44</string>
+    <string name="exam2_1306_subject_8_2_raw">39</string>
+    <string name="exam2_1306_subject_8_3_raw">32</string>
+    <string name="exam2_1306_subject_8_4_raw">27</string>
+
+    <string name="exam2_1306_subject_9_name">한국사</string>
+    <string name="exam2_1306_subject_9_1_raw">46</string>
+    <string name="exam2_1306_subject_9_2_raw">39</string>
+    <string name="exam2_1306_subject_9_3_raw">31</string>
+    <string name="exam2_1306_subject_9_4_raw">21</string>
+
+    <string name="exam2_1306_subject_10_name">한국지리</string>
+    <string name="exam2_1306_subject_10_1_raw">47</string>
+    <string name="exam2_1306_subject_10_2_raw">43</string>
+    <string name="exam2_1306_subject_10_3_raw">38</string>
+    <string name="exam2_1306_subject_10_4_raw">33</string>
+
+    <string name="exam2_1306_subject_11_name">세계사</string>
+    <string name="exam2_1306_subject_11_1_raw">41</string>
+    <string name="exam2_1306_subject_11_2_raw">33</string>
+    <string name="exam2_1306_subject_11_3_raw">25</string>
+    <string name="exam2_1306_subject_11_4_raw">19</string>
+
+    <string name="exam2_1306_subject_12_name">세계지리</string>
+    <string name="exam2_1306_subject_12_1_raw">45</string>
+    <string name="exam2_1306_subject_12_2_raw">42</string>
+    <string name="exam2_1306_subject_12_3_raw">36</string>
+    <string name="exam2_1306_subject_12_4_raw">32</string>
+
+    <string name="exam2_1306_subject_13_name">동아시아사</string>
+    <string name="exam2_1306_subject_13_1_raw">42</string>
+    <string name="exam2_1306_subject_13_2_raw">37</string>
+    <string name="exam2_1306_subject_13_3_raw">32</string>
+    <string name="exam2_1306_subject_13_4_raw">26</string>
+
+    <string name="exam2_1306_subject_14_name">법과 정치</string>
+    <string name="exam2_1306_subject_14_1_raw">45</string>
+    <string name="exam2_1306_subject_14_2_raw">41</string>
+    <string name="exam2_1306_subject_14_3_raw">35</string>
+    <string name="exam2_1306_subject_14_4_raw">27</string>
+
+    <string name="exam2_1306_subject_15_name">경제</string>
+    <string name="exam2_1306_subject_15_1_raw">44</string>
+    <string name="exam2_1306_subject_15_2_raw">39</string>
+    <string name="exam2_1306_subject_15_3_raw">33</string>
+    <string name="exam2_1306_subject_15_4_raw">26</string>
+
+    <string name="exam2_1306_subject_16_name">사회문화</string>
+    <string name="exam2_1306_subject_16_1_raw">45</string>
+    <string name="exam2_1306_subject_16_2_raw">42</string>
+    <string name="exam2_1306_subject_16_3_raw">37</string>
+    <string name="exam2_1306_subject_16_4_raw">32</string>
+
+    <string name="exam2_1306_subject_17_name">물리1</string>
+    <string name="exam2_1306_subject_17_1_raw">42</string>
+    <string name="exam2_1306_subject_17_2_raw">36</string>
+    <string name="exam2_1306_subject_17_3_raw">30</string>
+    <string name="exam2_1306_subject_17_4_raw">24</string>
+
+    <string name="exam2_1306_subject_18_name">화학1</string>
+    <string name="exam2_1306_subject_18_1_raw">46</string>
+    <string name="exam2_1306_subject_18_2_raw">41</string>
+    <string name="exam2_1306_subject_18_3_raw">35</string>
+    <string name="exam2_1306_subject_18_4_raw">27</string>
+
+    <string name="exam2_1306_subject_19_name">생명과학1</string>
+    <string name="exam2_1306_subject_19_1_raw">47</string>
+    <string name="exam2_1306_subject_19_2_raw">43</string>
+    <string name="exam2_1306_subject_19_3_raw">37</string>
+    <string name="exam2_1306_subject_19_4_raw">31</string>
+
+    <string name="exam2_1306_subject_20_name">지구과학1</string>
+    <string name="exam2_1306_subject_20_1_raw">44</string>
+    <string name="exam2_1306_subject_20_2_raw">39</string>
+    <string name="exam2_1306_subject_20_3_raw">33</string>
+    <string name="exam2_1306_subject_20_4_raw">27</string>
+
+    <string name="exam2_1309_name_full">2014학년도 9월 모의고사</string>
+    <string name="exam2_1309_name_simple">2013년 9월 모의고사</string>
+    <string name="exam2_1309_url">http://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201309032</string>
+    <string name="exam2_1309_implemented_year">2013</string>
+    <string name="exam2_1309_implemented_month">9</string>
+    <string name="exam2_1309_implemented_date">3</string>
+    <string name="exam2_1309_subject_number">20</string>
+
+    <string name="exam2_1309_subject_1_name">국어 A형</string>
+    <string name="exam2_1309_subject_1_1_raw">83</string>
+    <string name="exam2_1309_subject_1_2_raw">76</string>
+    <string name="exam2_1309_subject_1_3_raw">67</string>
+    <string name="exam2_1309_subject_1_4_raw">57</string>
+
+    <string name="exam2_1309_subject_2_name">국어 B형</string>
+    <string name="exam2_1309_subject_2_1_raw">90</string>
+    <string name="exam2_1309_subject_2_2_raw">84</string>
+    <string name="exam2_1309_subject_2_3_raw">76</string>
+    <string name="exam2_1309_subject_2_4_raw">66</string>
+
+    <string name="exam2_1309_subject_3_name">수학 A형</string>
+    <string name="exam2_1309_subject_3_1_raw">73</string>
+    <string name="exam2_1309_subject_3_2_raw">57</string>
+    <string name="exam2_1309_subject_3_3_raw">43</string>
+    <string name="exam2_1309_subject_3_4_raw">32</string>
+
+    <string name="exam2_1309_subject_4_name">수학 B형</string>
+    <string name="exam2_1309_subject_4_1_raw">90</string>
+    <string name="exam2_1309_subject_4_2_raw">76</string>
+    <string name="exam2_1309_subject_4_3_raw">61</string>
+    <string name="exam2_1309_subject_4_4_raw">48</string>
+
+    <string name="exam2_1309_subject_5_name">영어 A형</string>
+    <string name="exam2_1309_subject_5_1_raw">68</string>
+    <string name="exam2_1309_subject_5_2_raw">51</string>
+    <string name="exam2_1309_subject_5_3_raw">37</string>
+    <string name="exam2_1309_subject_5_4_raw">29</string>
+
+    <string name="exam2_1309_subject_6_name">영어 B형</string>
+    <string name="exam2_1309_subject_6_1_raw">97</string>
+    <string name="exam2_1309_subject_6_2_raw">89</string>
+    <string name="exam2_1309_subject_6_3_raw">76</string>
+    <string name="exam2_1309_subject_6_4_raw">59</string>
+
+    <string name="exam2_1309_subject_7_name">생활과 윤리</string>
+    <string name="exam2_1309_subject_7_1_raw">46</string>
+    <string name="exam2_1309_subject_7_2_raw">45</string>
+    <string name="exam2_1309_subject_7_3_raw">42</string>
+    <string name="exam2_1309_subject_7_4_raw">38</string>
+
+    <string name="exam2_1309_subject_8_name">윤리와 사상</string>
+    <string name="exam2_1309_subject_8_1_raw">43</string>
+    <string name="exam2_1309_subject_8_2_raw">35</string>
+    <string name="exam2_1309_subject_8_3_raw">27</string>
+    <string name="exam2_1309_subject_8_4_raw">20</string>
+
+    <string name="exam2_1309_subject_9_name">한국사</string>
+    <string name="exam2_1309_subject_9_1_raw">44</string>
+    <string name="exam2_1309_subject_9_2_raw">38</string>
+    <string name="exam2_1309_subject_9_3_raw">31</string>
+    <string name="exam2_1309_subject_9_4_raw">23</string>
+
+    <string name="exam2_1309_subject_10_name">한국지리</string>
+    <string name="exam2_1309_subject_10_1_raw">45</string>
+    <string name="exam2_1309_subject_10_2_raw">40</string>
+    <string name="exam2_1309_subject_10_3_raw">34</string>
+    <string name="exam2_1309_subject_10_4_raw">28</string>
+
+    <string name="exam2_1309_subject_11_name">세계사</string>
+    <string name="exam2_1309_subject_11_1_raw">42</string>
+    <string name="exam2_1309_subject_11_2_raw">35</string>
+    <string name="exam2_1309_subject_11_3_raw">27</string>
+    <string name="exam2_1309_subject_11_4_raw">20</string>
+
+    <string name="exam2_1309_subject_12_name">세계지리</string>
+    <string name="exam2_1309_subject_12_1_raw">47</string>
+    <string name="exam2_1309_subject_12_2_raw">43</string>
+    <string name="exam2_1309_subject_12_3_raw">39</string>
+    <string name="exam2_1309_subject_12_4_raw">34</string>
+
+    <string name="exam2_1309_subject_13_name">동아시아사</string>
+    <string name="exam2_1309_subject_13_1_raw">44</string>
+    <string name="exam2_1309_subject_13_2_raw">39</string>
+    <string name="exam2_1309_subject_13_3_raw">33</string>
+    <string name="exam2_1309_subject_13_4_raw">24</string>
+
+    <string name="exam2_1309_subject_14_name">법과 정치</string>
+    <string name="exam2_1309_subject_14_1_raw">41</string>
+    <string name="exam2_1309_subject_14_2_raw">35</string>
+    <string name="exam2_1309_subject_14_3_raw">29</string>
+    <string name="exam2_1309_subject_14_4_raw">23</string>
+
+    <string name="exam2_1309_subject_15_name">경제</string>
+    <string name="exam2_1309_subject_15_1_raw">44</string>
+    <string name="exam2_1309_subject_15_2_raw">37</string>
+    <string name="exam2_1309_subject_15_3_raw">30</string>
+    <string name="exam2_1309_subject_15_4_raw">23</string>
+
+    <string name="exam2_1309_subject_16_name">사회문화</string>
+    <string name="exam2_1309_subject_16_1_raw">46</string>
+    <string name="exam2_1309_subject_16_2_raw">40</string>
+    <string name="exam2_1309_subject_16_3_raw">33</string>
+    <string name="exam2_1309_subject_16_4_raw">25</string>
+
+    <string name="exam2_1309_subject_17_name">물리1</string>
+    <string name="exam2_1309_subject_17_1_raw">39</string>
+    <string name="exam2_1309_subject_17_2_raw">31</string>
+    <string name="exam2_1309_subject_17_3_raw">24</string>
+    <string name="exam2_1309_subject_17_4_raw">19</string>
+
+    <string name="exam2_1309_subject_18_name">화학1</string>
+    <string name="exam2_1309_subject_18_1_raw">44</string>
+    <string name="exam2_1309_subject_18_2_raw">38</string>
+    <string name="exam2_1309_subject_18_3_raw">31</string>
+    <string name="exam2_1309_subject_18_4_raw">23</string>
+
+    <string name="exam2_1309_subject_19_name">생명과학1</string>
+    <string name="exam2_1309_subject_19_1_raw">41</string>
+    <string name="exam2_1309_subject_19_2_raw">35</string>
+    <string name="exam2_1309_subject_19_3_raw">28</string>
+    <string name="exam2_1309_subject_19_4_raw">22</string>
+
+    <string name="exam2_1309_subject_20_name">지구과학1</string>
+    <string name="exam2_1309_subject_20_1_raw">42</string>
+    <string name="exam2_1309_subject_20_2_raw">36</string>
+    <string name="exam2_1309_subject_20_3_raw">30</string>
+    <string name="exam2_1309_subject_20_4_raw">24</string>
+
+    <string name="exam2_1311_name_full">2014학년도 11월 모의고사</string>
+    <string name="exam2_1311_name_simple">2013년 11월 모의고사</string>
+    <string name="exam2_1311_url">http://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201311142</string>
+    <string name="exam2_1311_implemented_year">2013</string>
+    <string name="exam2_1311_implemented_month">11</string>
+    <string name="exam2_1311_implemented_date">14</string>
+    <string name="exam2_1311_subject_number">19</string>
+
+    <string name="exam2_1311_subject_1_name">국어 A형</string>
+    <string name="exam2_1311_subject_1_1_raw">97</string>
+    <string name="exam2_1311_subject_1_2_raw">92</string>
+    <string name="exam2_1311_subject_1_3_raw">86</string>
+    <string name="exam2_1311_subject_1_4_raw">77</string>
+
+    <string name="exam2_1311_subject_2_name">국어 B형</string>
+    <string name="exam2_1311_subject_2_1_raw">93</string>
+    <string name="exam2_1311_subject_2_2_raw">88</string>
+    <string name="exam2_1311_subject_2_3_raw">81</string>
+    <string name="exam2_1311_subject_2_4_raw">70</string>
+
+    <string name="exam2_1311_subject_3_name">수학 A형</string>
+    <string name="exam2_1311_subject_3_1_raw">85</string>
+    <string name="exam2_1311_subject_3_2_raw">74</string>
+    <string name="exam2_1311_subject_3_3_raw">58</string>
+    <string name="exam2_1311_subject_3_4_raw">38</string>
+
+    <string name="exam2_1311_subject_4_name">수학 B형</string>
+    <string name="exam2_1311_subject_4_1_raw">89</string>
+    <string name="exam2_1311_subject_4_2_raw">78</string>
+    <string name="exam2_1311_subject_4_3_raw">64</string>
+    <string name="exam2_1311_subject_4_4_raw">48</string>
+
+    <string name="exam2_1311_subject_5_name">영어</string>
+    <string name="exam2_1311_subject_5_1_raw">95</string>
+    <string name="exam2_1311_subject_5_2_raw">89</string>
+    <string name="exam2_1311_subject_5_3_raw">78</string>
+    <string name="exam2_1311_subject_5_4_raw">61</string>
+
+    <string name="exam2_1311_subject_6_name">생활과 윤리</string>
+    <string name="exam2_1311_subject_6_1_raw">46</string>
+    <string name="exam2_1311_subject_6_2_raw">42</string>
+    <string name="exam2_1311_subject_6_3_raw">39</string>
+    <string name="exam2_1311_subject_6_4_raw">34</string>
+
+    <string name="exam2_1311_subject_7_name">윤리와 사상</string>
+    <string name="exam2_1311_subject_7_1_raw">45</string>
+    <string name="exam2_1311_subject_7_2_raw">37</string>
+    <string name="exam2_1311_subject_7_3_raw">30</string>
+    <string name="exam2_1311_subject_7_4_raw">22</string>
+
+    <string name="exam2_1311_subject_8_name">한국사</string>
+    <string name="exam2_1311_subject_8_1_raw">42</string>
+    <string name="exam2_1311_subject_8_2_raw">33</string>
+    <string name="exam2_1311_subject_8_3_raw">23</string>
+    <string name="exam2_1311_subject_8_4_raw">17</string>
+
+    <string name="exam2_1311_subject_9_name">한국지리</string>
+    <string name="exam2_1311_subject_9_1_raw">40</string>
+    <string name="exam2_1311_subject_9_2_raw">35</string>
+    <string name="exam2_1311_subject_9_3_raw">29</string>
+    <string name="exam2_1311_subject_9_4_raw">24</string>
+
+    <string name="exam2_1311_subject_10_name">세계사</string>
+    <string name="exam2_1311_subject_10_1_raw">42</string>
+    <string name="exam2_1311_subject_10_2_raw">34</string>
+    <string name="exam2_1311_subject_10_3_raw">27</string>
+    <string name="exam2_1311_subject_10_4_raw">20</string>
+
+    <string name="exam2_1311_subject_11_name">세계지리</string>
+    <string name="exam2_1311_subject_11_1_raw">39</string>
+    <string name="exam2_1311_subject_11_2_raw">34</string>
+    <string name="exam2_1311_subject_11_3_raw">30</string>
+    <string name="exam2_1311_subject_11_4_raw">25</string>
+
+    <string name="exam2_1311_subject_12_name">동아시아사</string>
+    <string name="exam2_1311_subject_12_1_raw">45</string>
+    <string name="exam2_1311_subject_12_2_raw">40</string>
+    <string name="exam2_1311_subject_12_3_raw">34</string>
+    <string name="exam2_1311_subject_12_4_raw">27</string>
+
+    <string name="exam2_1311_subject_13_name">법과 정치</string>
+    <string name="exam2_1311_subject_13_1_raw">40</string>
+    <string name="exam2_1311_subject_13_2_raw">34</string>
+    <string name="exam2_1311_subject_13_3_raw">28</string>
+    <string name="exam2_1311_subject_13_4_raw">22</string>
+
+    <string name="exam2_1311_subject_14_name">경제</string>
+    <string name="exam2_1311_subject_14_1_raw">38</string>
+    <string name="exam2_1311_subject_14_2_raw">31</string>
+    <string name="exam2_1311_subject_14_3_raw">23</string>
+    <string name="exam2_1311_subject_14_4_raw">17</string>
+
+    <string name="exam2_1311_subject_15_name">사회문화</string>
+    <string name="exam2_1311_subject_15_1_raw">42</string>
+    <string name="exam2_1311_subject_15_2_raw">39</string>
+    <string name="exam2_1311_subject_15_3_raw">33</string>
+    <string name="exam2_1311_subject_15_4_raw">27</string>
+
+    <string name="exam2_1311_subject_16_name">물리1</string>
+    <string name="exam2_1311_subject_16_1_raw">39</string>
+    <string name="exam2_1311_subject_16_2_raw">33</string>
+    <string name="exam2_1311_subject_16_3_raw">26</string>
+    <string name="exam2_1311_subject_16_4_raw">20</string>
+
+    <string name="exam2_1311_subject_17_name">화학1</string>
+    <string name="exam2_1311_subject_17_1_raw">47</string>
+    <string name="exam2_1311_subject_17_2_raw">42</string>
+    <string name="exam2_1311_subject_17_3_raw">35</string>
+    <string name="exam2_1311_subject_17_4_raw">28</string>
+
+    <string name="exam2_1311_subject_18_name">생명과학1</string>
+    <string name="exam2_1311_subject_18_1_raw">44</string>
+    <string name="exam2_1311_subject_18_2_raw">38</string>
+    <string name="exam2_1311_subject_18_3_raw">31</string>
+    <string name="exam2_1311_subject_18_4_raw">25</string>
+
+    <string name="exam2_1311_subject_19_name">지구과학1</string>
+    <string name="exam2_1311_subject_19_1_raw">40</string>
+    <string name="exam2_1311_subject_19_2_raw">33</string>
+    <string name="exam2_1311_subject_19_3_raw">28</string>
+    <string name="exam2_1311_subject_19_4_raw">22</string>
+
+
+
+
+
+
+
+
+
+    <!-- @@@@@@@ YEAR 2014 @@@@@@@ -->
+    <string name="exam2_14_number">4</string>
+    <string-array name="exam2_14_month">
+        <item>03</item>
+        <item>06</item>
+        <item>09</item>
+        <item>11</item>
+    </string-array>
+    <string name="exam2_1403_name_full">2015학년도 3월 모의고사</string>
+    <string name="exam2_1403_name_simple">2014년 3월 모의고사</string>
+    <string name="exam2_1403_url">http://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201403122</string>
+    <string name="exam2_1403_implemented_year">2014</string>
+    <string name="exam2_1403_implemented_month">3</string>
+    <string name="exam2_1403_implemented_date">12</string>
+    <string name="exam2_1403_subject_number">19</string>
+
+    <string name="exam2_1403_subject_1_name">국어 A형</string>
+    <string name="exam2_1403_subject_1_1_raw">95</string>
+    <string name="exam2_1403_subject_1_2_raw">93</string>
+    <string name="exam2_1403_subject_1_3_raw">86</string>
+    <string name="exam2_1403_subject_1_4_raw">79</string>
+
+    <string name="exam2_1403_subject_2_name">국어 B형</string>
+    <string name="exam2_1403_subject_2_1_raw">95</string>
+    <string name="exam2_1403_subject_2_2_raw">92</string>
+    <string name="exam2_1403_subject_2_3_raw">84</string>
+    <string name="exam2_1403_subject_2_4_raw">75</string>
+
+    <string name="exam2_1403_subject_3_name">수학 A형</string>
+    <string name="exam2_1403_subject_3_1_raw">74</string>
+    <string name="exam2_1403_subject_3_2_raw">55</string>
+    <string name="exam2_1403_subject_3_3_raw">43</string>
+    <string name="exam2_1403_subject_3_4_raw">31</string>
+
+    <string name="exam2_1403_subject_4_name">수학 B형</string>
+    <string name="exam2_1403_subject_4_1_raw">77</string>
+    <string name="exam2_1403_subject_4_2_raw">65</string>
+    <string name="exam2_1403_subject_4_3_raw">52</string>
+    <string name="exam2_1403_subject_4_4_raw">42</string>
+
+    <string name="exam2_1403_subject_5_name">영어</string>
+    <string name="exam2_1403_subject_5_1_raw">96</string>
+    <string name="exam2_1403_subject_5_2_raw">88</string>
+    <string name="exam2_1403_subject_5_3_raw">76</string>
+    <string name="exam2_1403_subject_5_4_raw">62</string>
+
+    <string name="exam2_1403_subject_6_name">생활과윤리</string>
+    <string name="exam2_1403_subject_6_1_raw">42</string>
+    <string name="exam2_1403_subject_6_2_raw">36</string>
+    <string name="exam2_1403_subject_6_3_raw">31</string>
+    <string name="exam2_1403_subject_6_4_raw">25</string>
+
+    <string name="exam2_1403_subject_7_name">윤리와사상</string>
+    <string name="exam2_1403_subject_7_1_raw">41</string>
+    <string name="exam2_1403_subject_7_2_raw">34</string>
+    <string name="exam2_1403_subject_7_3_raw">26</string>
+    <string name="exam2_1403_subject_7_4_raw">21</string>
+
+    <string name="exam2_1403_subject_8_name">한국지리</string>
+    <string name="exam2_1403_subject_8_1_raw">46</string>
+    <string name="exam2_1403_subject_8_2_raw">44</string>
+    <string name="exam2_1403_subject_8_3_raw">38</string>
+    <string name="exam2_1403_subject_8_4_raw">32</string>
+
+    <string name="exam2_1403_subject_9_name">한국사</string>
+    <string name="exam2_1403_subject_9_1_raw">45</string>
+    <string name="exam2_1403_subject_9_2_raw">41</string>
+    <string name="exam2_1403_subject_9_3_raw">34</string>
+    <string name="exam2_1403_subject_9_4_raw">24</string>
+
+    <string name="exam2_1403_subject_10_name">세계지리</string>
+    <string name="exam2_1403_subject_10_1_raw">47</string>
+    <string name="exam2_1403_subject_10_2_raw">43</string>
+    <string name="exam2_1403_subject_10_3_raw">37</string>
+    <string name="exam2_1403_subject_10_4_raw">31</string>
+
+    <string name="exam2_1403_subject_11_name">동아시아사</string>
+    <string name="exam2_1403_subject_11_1_raw">43</string>
+    <string name="exam2_1403_subject_11_2_raw">39</string>
+    <string name="exam2_1403_subject_11_3_raw">33</string>
+    <string name="exam2_1403_subject_11_4_raw">26</string>
+
+    <string name="exam2_1403_subject_12_name">세계사</string>
+    <string name="exam2_1403_subject_12_1_raw">45</string>
+    <string name="exam2_1403_subject_12_2_raw">39</string>
+    <string name="exam2_1403_subject_12_3_raw">31</string>
+    <string name="exam2_1403_subject_12_4_raw">22</string>
+
+    <string name="exam2_1403_subject_13_name">법과정치</string>
+    <string name="exam2_1403_subject_13_1_raw">45</string>
+    <string name="exam2_1403_subject_13_2_raw">42</string>
+    <string name="exam2_1403_subject_13_3_raw">38</string>
+    <string name="exam2_1403_subject_13_4_raw">34</string>
+
+    <string name="exam2_1403_subject_14_name">경제</string>
+    <string name="exam2_1403_subject_14_1_raw">45</string>
+    <string name="exam2_1403_subject_14_2_raw">40</string>
+    <string name="exam2_1403_subject_14_3_raw">33</string>
+    <string name="exam2_1403_subject_14_4_raw">24</string>
+
+    <string name="exam2_1403_subject_15_name">사회문화</string>
+    <string name="exam2_1403_subject_15_1_raw">47</string>
+    <string name="exam2_1403_subject_15_2_raw">44</string>
+    <string name="exam2_1403_subject_15_3_raw">38</string>
+    <string name="exam2_1403_subject_15_4_raw">30</string>
+
+    <string name="exam2_1403_subject_16_name">물리1</string>
+    <string name="exam2_1403_subject_16_1_raw">37</string>
+    <string name="exam2_1403_subject_16_2_raw">29</string>
+    <string name="exam2_1403_subject_16_3_raw">24</string>
+    <string name="exam2_1403_subject_16_4_raw">19</string>
+
+    <string name="exam2_1403_subject_17_name">회힉1</string>
+    <string name="exam2_1403_subject_17_1_raw">39</string>
+    <string name="exam2_1403_subject_17_2_raw">31</string>
+    <string name="exam2_1403_subject_17_3_raw">26</string>
+    <string name="exam2_1403_subject_17_4_raw">22</string>
+
+    <string name="exam2_1403_subject_18_name">생명과학1</string>
+    <string name="exam2_1403_subject_18_1_raw">41</string>
+    <string name="exam2_1403_subject_18_2_raw">37</string>
+    <string name="exam2_1403_subject_18_3_raw">29</string>
+    <string name="exam2_1403_subject_18_4_raw">23</string>
+
+    <string name="exam2_1403_subject_19_name">지구과학1</string>
+    <string name="exam2_1403_subject_19_1_raw">45</string>
+    <string name="exam2_1403_subject_19_2_raw">40</string>
+    <string name="exam2_1403_subject_19_3_raw">36</string>
+    <string name="exam2_1403_subject_19_4_raw">30</string>
+
+    <string name="exam2_1406_name_full">2015학년도 6월 모의고사</string>
+    <string name="exam2_1406_name_simple">2014년 6월 모의고사</string>
+    <string name="exam2_1406_url">http://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201406122</string>
+    <string name="exam2_1406_implemented_year">2014</string>
+    <string name="exam2_1406_implemented_month">6</string>
+    <string name="exam2_1406_implemented_date">12</string>
+    <string name="exam2_1406_subject_number">19</string>
+
+    <string name="exam2_1406_subject_1_name">국어 A형</string>
+    <string name="exam2_1406_subject_1_1_raw">94</string>
+    <string name="exam2_1406_subject_1_2_raw">89</string>
+    <string name="exam2_1406_subject_1_3_raw">84</string>
+    <string name="exam2_1406_subject_1_4_raw">74</string>
+
+    <string name="exam2_1406_subject_2_name">국어 B형</string>
+    <string name="exam2_1406_subject_2_1_raw">90</string>
+    <string name="exam2_1406_subject_2_2_raw">84</string>
+    <string name="exam2_1406_subject_2_3_raw">76</string>
+    <string name="exam2_1406_subject_2_4_raw">64</string>
+
+    <string name="exam2_1406_subject_3_name">수학 A형</string>
+    <string name="exam2_1406_subject_3_1_raw">88</string>
+    <string name="exam2_1406_subject_3_2_raw">77</string>
+    <string name="exam2_1406_subject_3_3_raw">63</string>
+    <string name="exam2_1406_subject_3_4_raw">36</string>
+
+    <string name="exam2_1406_subject_4_name">수학 B형</string>
+    <string name="exam2_1406_subject_4_1_raw">92</string>
+    <string name="exam2_1406_subject_4_2_raw">78</string>
+    <string name="exam2_1406_subject_4_3_raw">61</string>
+    <string name="exam2_1406_subject_4_4_raw">48</string>
+
+    <string name="exam2_1406_subject_5_name">영어</string>
+    <string name="exam2_1406_subject_5_1_raw">87</string>
+    <string name="exam2_1406_subject_5_2_raw">78</string>
+    <string name="exam2_1406_subject_5_3_raw">68</string>
+    <string name="exam2_1406_subject_5_4_raw">56</string>
+
+    <string name="exam2_1406_subject_6_name">생활과 윤리</string>
+    <string name="exam2_1406_subject_6_1_raw">45</string>
+    <string name="exam2_1406_subject_6_2_raw">41</string>
+    <string name="exam2_1406_subject_6_3_raw">36</string>
+    <string name="exam2_1406_subject_6_4_raw">31</string>
+
+    <string name="exam2_1406_subject_7_name">윤리와 사상</string>
+    <string name="exam2_1406_subject_7_1_raw">43</string>
+    <string name="exam2_1406_subject_7_2_raw">40</string>
+    <string name="exam2_1406_subject_7_3_raw">36</string>
+    <string name="exam2_1406_subject_7_4_raw">29</string>
+
+    <string name="exam2_1406_subject_8_name">한국사</string>
+    <string name="exam2_1406_subject_8_1_raw">44</string>
+    <string name="exam2_1406_subject_8_2_raw">38</string>
+    <string name="exam2_1406_subject_8_3_raw">30</string>
+    <string name="exam2_1406_subject_8_4_raw">23</string>
+
+    <string name="exam2_1406_subject_9_name">한국지리</string>
+    <string name="exam2_1406_subject_9_1_raw">40</string>
+    <string name="exam2_1406_subject_9_2_raw">34</string>
+    <string name="exam2_1406_subject_9_3_raw">28</string>
+    <string name="exam2_1406_subject_9_4_raw">24</string>
+
+    <string name="exam2_1406_subject_10_name">세계사</string>
+    <string name="exam2_1406_subject_10_1_raw">40</string>
+    <string name="exam2_1406_subject_10_2_raw">35</string>
+    <string name="exam2_1406_subject_10_3_raw">30</string>
+    <string name="exam2_1406_subject_10_4_raw">25</string>
+
+    <string name="exam2_1406_subject_11_name">세계지리</string>
+    <string name="exam2_1406_subject_11_1_raw">37</string>
+    <string name="exam2_1406_subject_11_2_raw">33</string>
+    <string name="exam2_1406_subject_11_3_raw">28</string>
+    <string name="exam2_1406_subject_11_4_raw">21</string>
+
+    <string name="exam2_1406_subject_12_name">동아시아사</string>
+    <string name="exam2_1406_subject_12_1_raw">40</string>
+    <string name="exam2_1406_subject_12_2_raw">32</string>
+    <string name="exam2_1406_subject_12_3_raw">25</string>
+    <string name="exam2_1406_subject_12_4_raw">20</string>
+
+    <string name="exam2_1406_subject_13_name">법과 정치</string>
+    <string name="exam2_1406_subject_13_1_raw">40</string>
+    <string name="exam2_1406_subject_13_2_raw">35</string>
+    <string name="exam2_1406_subject_13_3_raw">28</string>
+    <string name="exam2_1406_subject_13_4_raw">22</string>
+
+    <string name="exam2_1406_subject_14_name">경제</string>
+    <string name="exam2_1406_subject_14_1_raw">42</string>
+    <string name="exam2_1406_subject_14_2_raw">37</string>
+    <string name="exam2_1406_subject_14_3_raw">30</string>
+    <string name="exam2_1406_subject_14_4_raw">25</string>
+
+    <string name="exam2_1406_subject_15_name">사회문화</string>
+    <string name="exam2_1406_subject_15_1_raw">39</string>
+    <string name="exam2_1406_subject_15_2_raw">32</string>
+    <string name="exam2_1406_subject_15_3_raw">24</string>
+    <string name="exam2_1406_subject_15_4_raw">19</string>
+
+    <string name="exam2_1406_subject_16_name">물리1</string>
+    <string name="exam2_1406_subject_16_1_raw">40</string>
+    <string name="exam2_1406_subject_16_2_raw">33</string>
+    <string name="exam2_1406_subject_16_3_raw">26</string>
+    <string name="exam2_1406_subject_16_4_raw">21</string>
+
+    <string name="exam2_1406_subject_17_name">화학1</string>
+    <string name="exam2_1406_subject_17_1_raw">42</string>
+    <string name="exam2_1406_subject_17_2_raw">37</string>
+    <string name="exam2_1406_subject_17_3_raw">32</string>
+    <string name="exam2_1406_subject_17_4_raw">27</string>
+
+    <string name="exam2_1406_subject_18_name">생명과학1</string>
+    <string name="exam2_1406_subject_18_1_raw">39</string>
+    <string name="exam2_1406_subject_18_2_raw">28</string>
+    <string name="exam2_1406_subject_18_3_raw">21</string>
+    <string name="exam2_1406_subject_18_4_raw">16</string>
+
+    <string name="exam2_1406_subject_19_name">지구과학1</string>
+    <string name="exam2_1406_subject_19_1_raw">46</string>
+    <string name="exam2_1406_subject_19_2_raw">42</string>
+    <string name="exam2_1406_subject_19_3_raw">30</string>
+    <string name="exam2_1406_subject_19_4_raw">23</string>
+
+    <string name="exam2_1409_name_full">2014학년도 9월 모의고사</string>
+    <string name="exam2_1409_name_simple">2013년 9월 모의고사</string>
+    <string name="exam2_1409_url">http://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201409032</string>
+    <string name="exam2_1409_implemented_year">2014</string>
+    <string name="exam2_1409_implemented_month">9</string>
+    <string name="exam2_1409_implemented_date">3</string>
+    <string name="exam2_1409_subject_number">19</string>
+
+    <string name="exam2_1409_subject_1_name">국어 A형</string>
+    <string name="exam2_1409_subject_1_1_raw">95</string>
+    <string name="exam2_1409_subject_1_2_raw">91</string>
+    <string name="exam2_1409_subject_1_3_raw">84</string>
+    <string name="exam2_1409_subject_1_4_raw">71</string>
+
+    <string name="exam2_1409_subject_2_name">국어 B형</string>
+    <string name="exam2_1409_subject_2_1_raw">88</string>
+    <string name="exam2_1409_subject_2_2_raw">82</string>
+    <string name="exam2_1409_subject_2_3_raw">75</string>
+    <string name="exam2_1409_subject_2_4_raw">66</string>
+
+    <string name="exam2_1409_subject_3_name">수학 A형</string>
+    <string name="exam2_1409_subject_3_1_raw">76</string>
+    <string name="exam2_1409_subject_3_2_raw">61</string>
+    <string name="exam2_1409_subject_3_3_raw">45</string>
+    <string name="exam2_1409_subject_3_4_raw">33</string>
+
+    <string name="exam2_1409_subject_4_name">수학 B형</string>
+    <string name="exam2_1409_subject_4_1_raw">92</string>
+    <string name="exam2_1409_subject_4_2_raw">80</string>
+    <string name="exam2_1409_subject_4_3_raw">66</string>
+    <string name="exam2_1409_subject_4_4_raw">47</string>
+
+    <string name="exam2_1409_subject_5_name">영어</string>
+    <string name="exam2_1409_subject_5_1_raw">91</string>
+    <string name="exam2_1409_subject_5_2_raw">80</string>
+    <string name="exam2_1409_subject_5_3_raw">67</string>
+    <string name="exam2_1409_subject_5_4_raw">54</string>
+
+    <string name="exam2_1409_subject_6_name">생활과 윤리</string>
+    <string name="exam2_1409_subject_6_1_raw">45</string>
+    <string name="exam2_1409_subject_6_2_raw">43</string>
+    <string name="exam2_1409_subject_6_3_raw">39</string>
+    <string name="exam2_1409_subject_6_4_raw">35</string>
+
+    <string name="exam2_1409_subject_7_name">윤리와 사상</string>
+    <string name="exam2_1409_subject_7_1_raw">42</string>
+    <string name="exam2_1409_subject_7_2_raw">36</string>
+    <string name="exam2_1409_subject_7_3_raw">29</string>
+    <string name="exam2_1409_subject_7_4_raw">23</string>
+
+    <string name="exam2_1409_subject_8_name">한국사</string>
+    <string name="exam2_1409_subject_8_1_raw">44</string>
+    <string name="exam2_1409_subject_8_2_raw">38</string>
+    <string name="exam2_1409_subject_8_3_raw">30</string>
+    <string name="exam2_1409_subject_8_4_raw">22</string>
+
+    <string name="exam2_1409_subject_9_name">한국지리</string>
+    <string name="exam2_1409_subject_9_1_raw">45</string>
+    <string name="exam2_1409_subject_9_2_raw">40</string>
+    <string name="exam2_1409_subject_9_3_raw">35</string>
+    <string name="exam2_1409_subject_9_4_raw">29</string>
+
+    <string name="exam2_1409_subject_10_name">세계사</string>
+    <string name="exam2_1409_subject_10_1_raw">44</string>
+    <string name="exam2_1409_subject_10_2_raw">37</string>
+    <string name="exam2_1409_subject_10_3_raw">30</string>
+    <string name="exam2_1409_subject_10_4_raw">23</string>
+
+    <string name="exam2_1409_subject_11_name">세계지리</string>
+    <string name="exam2_1409_subject_11_1_raw">34</string>
+    <string name="exam2_1409_subject_11_2_raw">39</string>
+    <string name="exam2_1409_subject_11_3_raw">34</string>
+    <string name="exam2_1409_subject_11_4_raw">29</string>
+
+    <string name="exam2_1409_subject_12_name">동아시아사</string>
+    <string name="exam2_1409_subject_12_1_raw">44</string>
+    <string name="exam2_1409_subject_12_2_raw">39</string>
+    <string name="exam2_1409_subject_12_3_raw">33</string>
+    <string name="exam2_1409_subject_12_4_raw">25</string>
+
+    <string name="exam2_1409_subject_13_name">법과 정치</string>
+    <string name="exam2_1409_subject_13_1_raw">42</string>
+    <string name="exam2_1409_subject_13_2_raw">38</string>
+    <string name="exam2_1409_subject_13_3_raw">33</string>
+    <string name="exam2_1409_subject_13_4_raw">27</string>
+
+    <string name="exam2_1409_subject_14_name">경제</string>
+    <string name="exam2_1409_subject_14_1_raw">43</string>
+    <string name="exam2_1409_subject_14_2_raw">36</string>
+    <string name="exam2_1409_subject_14_3_raw">29</string>
+    <string name="exam2_1409_subject_14_4_raw">23</string>
+
+    <string name="exam2_1409_subject_15_name">사회문화</string>
+    <string name="exam2_1409_subject_15_1_raw">45</string>
+    <string name="exam2_1409_subject_15_2_raw">40</string>
+    <string name="exam2_1409_subject_15_3_raw">35</string>
+    <string name="exam2_1409_subject_15_4_raw">29</string>
+
+    <string name="exam2_1409_subject_16_name">물리1</string>
+    <string name="exam2_1409_subject_16_1_raw">42</string>
+    <string name="exam2_1409_subject_16_2_raw">35</string>
+    <string name="exam2_1409_subject_16_3_raw">29</string>
+    <string name="exam2_1409_subject_16_4_raw">22</string>
+
+    <string name="exam2_1409_subject_17_name">화학1</string>
+    <string name="exam2_1409_subject_17_1_raw">45</string>
+    <string name="exam2_1409_subject_17_2_raw">40</string>
+    <string name="exam2_1409_subject_17_3_raw">33</string>
+    <string name="exam2_1409_subject_17_4_raw">26</string>
+
+    <string name="exam2_1409_subject_18_name">생명과학1</string>
+    <string name="exam2_1409_subject_18_1_raw">44</string>
+    <string name="exam2_1409_subject_18_2_raw">38</string>
+    <string name="exam2_1409_subject_18_3_raw">31</string>
+    <string name="exam2_1409_subject_18_4_raw">25</string>
+
+    <string name="exam2_1409_subject_19_name">지구과학1</string>
+    <string name="exam2_1409_subject_19_1_raw">43</string>
+    <string name="exam2_1409_subject_19_2_raw">38</string>
+    <string name="exam2_1409_subject_19_3_raw">33</string>
+    <string name="exam2_1409_subject_19_4_raw">27</string>
+
+    <string name="exam2_1411_name_full">2015학년도 11월 모의고사</string>
+    <string name="exam2_1411_name_simple">2014년 11월 모의고사</string>
+    <string name="exam2_1411_url">http://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201411182</string>
+    <string name="exam2_1411_implemented_year">2013</string>
+    <string name="exam2_1411_implemented_month">11</string>
+    <string name="exam2_1411_implemented_date">18</string>
+    <string name="exam2_1411_subject_number">19</string>
+
+    <string name="exam2_1411_subject_1_name">국어 A형</string>
+    <string name="exam2_1411_subject_1_1_raw">91</string>
+    <string name="exam2_1411_subject_1_2_raw">82</string>
+    <string name="exam2_1411_subject_1_3_raw">73</string>
+    <string name="exam2_1411_subject_1_4_raw">62</string>
+
+    <string name="exam2_1411_subject_2_name">국어 B형</string>
+    <string name="exam2_1411_subject_2_1_raw">91</string>
+    <string name="exam2_1411_subject_2_2_raw">83</string>
+    <string name="exam2_1411_subject_2_3_raw">73</string>
+    <string name="exam2_1411_subject_2_4_raw">64</string>
+
+    <string name="exam2_1411_subject_3_name">수학 A형</string>
+    <string name="exam2_1411_subject_3_1_raw">80</string>
+    <string name="exam2_1411_subject_3_2_raw">60</string>
+    <string name="exam2_1411_subject_3_3_raw">45</string>
+    <string name="exam2_1411_subject_3_4_raw">32</string>
+
+    <string name="exam2_1411_subject_4_name">수학 B형</string>
+    <string name="exam2_1411_subject_4_1_raw">82</string>
+    <string name="exam2_1411_subject_4_2_raw">72</string>
+    <string name="exam2_1411_subject_4_3_raw">61</string>
+    <string name="exam2_1411_subject_4_4_raw">49</string>
+
+    <string name="exam2_1411_subject_5_name">영어</string>
+    <string name="exam2_1411_subject_5_1_raw">97</string>
+    <string name="exam2_1411_subject_5_2_raw">91</string>
+    <string name="exam2_1411_subject_5_3_raw">79</string>
+    <string name="exam2_1411_subject_5_4_raw">65</string>
+
+    <string name="exam2_1411_subject_6_name">생활과 윤리</string>
+    <string name="exam2_1411_subject_6_1_raw">45</string>
+    <string name="exam2_1411_subject_6_2_raw">41</string>
+    <string name="exam2_1411_subject_6_3_raw">36</string>
+    <string name="exam2_1411_subject_6_4_raw">31</string>
+
+    <string name="exam2_1411_subject_7_name">윤리와 사상</string>
+    <string name="exam2_1411_subject_7_1_raw">44</string>
+    <string name="exam2_1411_subject_7_2_raw">37</string>
+    <string name="exam2_1411_subject_7_3_raw">30</string>
+    <string name="exam2_1411_subject_7_4_raw">23</string>
+
+    <string name="exam2_1411_subject_8_name">한국사</string>
+    <string name="exam2_1411_subject_8_1_raw">46</string>
+    <string name="exam2_1411_subject_8_2_raw">41</string>
+    <string name="exam2_1411_subject_8_3_raw">33</string>
+    <string name="exam2_1411_subject_8_4_raw">26</string>
+
+    <string name="exam2_1411_subject_9_name">한국지리</string>
+    <string name="exam2_1411_subject_9_1_raw">47</string>
+    <string name="exam2_1411_subject_9_2_raw">42</string>
+    <string name="exam2_1411_subject_9_3_raw">36</string>
+    <string name="exam2_1411_subject_9_4_raw">29</string>
+
+    <string name="exam2_1411_subject_10_name">세계사</string>
+    <string name="exam2_1411_subject_10_1_raw">41</string>
+    <string name="exam2_1411_subject_10_2_raw">35</string>
+    <string name="exam2_1411_subject_10_3_raw">28</string>
+    <string name="exam2_1411_subject_10_4_raw">21</string>
+
+    <string name="exam2_1411_subject_11_name">세계지리</string>
+    <string name="exam2_1411_subject_11_1_raw">45</string>
+    <string name="exam2_1411_subject_11_2_raw">40</string>
+    <string name="exam2_1411_subject_11_3_raw">34</string>
+    <string name="exam2_1411_subject_11_4_raw">28</string>
+
+    <string name="exam2_1411_subject_12_name">동아시아사</string>
+    <string name="exam2_1411_subject_12_1_raw">45</string>
+    <string name="exam2_1411_subject_12_2_raw">40</string>
+    <string name="exam2_1411_subject_12_3_raw">34</string>
+    <string name="exam2_1411_subject_12_4_raw">25</string>
+
+    <string name="exam2_1411_subject_13_name">법과 정치</string>
+    <string name="exam2_1411_subject_13_1_raw">40</string>
+    <string name="exam2_1411_subject_13_2_raw">34</string>
+    <string name="exam2_1411_subject_13_3_raw">29</string>
+    <string name="exam2_1411_subject_13_4_raw">23</string>
+
+    <string name="exam2_1411_subject_14_name">경제</string>
+    <string name="exam2_1411_subject_14_1_raw">39</string>
+    <string name="exam2_1411_subject_14_2_raw">32</string>
+    <string name="exam2_1411_subject_14_3_raw">25</string>
+    <string name="exam2_1411_subject_14_4_raw">19</string>
+
+    <string name="exam2_1411_subject_15_name">사회문화</string>
+    <string name="exam2_1411_subject_15_1_raw">41</string>
+    <string name="exam2_1411_subject_15_2_raw">37</string>
+    <string name="exam2_1411_subject_15_3_raw">32</string>
+    <string name="exam2_1411_subject_15_4_raw">28</string>
+
+    <string name="exam2_1411_subject_16_name">물리1</string>
+    <string name="exam2_1411_subject_16_1_raw">43</string>
+    <string name="exam2_1411_subject_16_2_raw">38</string>
+    <string name="exam2_1411_subject_16_3_raw">32</string>
+    <string name="exam2_1411_subject_16_4_raw">25</string>
+
+    <string name="exam2_1411_subject_17_name">화학1</string>
+    <string name="exam2_1411_subject_17_1_raw">40</string>
+    <string name="exam2_1411_subject_17_2_raw">34</string>
+    <string name="exam2_1411_subject_17_3_raw">27</string>
+    <string name="exam2_1411_subject_17_4_raw">21</string>
+
+    <string name="exam2_1411_subject_18_name">생명과학1</string>
+    <string name="exam2_1411_subject_18_1_raw">45</string>
+    <string name="exam2_1411_subject_18_2_raw">39</string>
+    <string name="exam2_1411_subject_18_3_raw">30</string>
+    <string name="exam2_1411_subject_18_4_raw">23</string>
+
+    <string name="exam2_1411_subject_19_name">지구과학1</string>
+    <string name="exam2_1411_subject_19_1_raw">44</string>
+    <string name="exam2_1411_subject_19_2_raw">38</string>
+    <string name="exam2_1411_subject_19_3_raw">31</string>
+    <string name="exam2_1411_subject_19_4_raw">24</string>
+
+
+
+
+    <!-- @@@@@@@ YEAR 2015 @@@@@@@ -->
+    <string name="exam2_15_number">2</string>
+    <string-array name="exam2_15_month">
+        <item>03</item>
+        <item>06</item>
+    </string-array>
+	<string name="exam2_1503_name_full">2016학년도 3월 모의고사</string>
+    <string name="exam2_1503_name_simple">2015년 3월 모의고사</string>
+    <string name="exam2_1503_url">http://ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201503112</string>
+    <string name="exam2_1503_implemented_year">2015</string>
+    <string name="exam2_1503_implemented_month">3</string>
+    <string name="exam2_1503_implemented_date">11</string>
+    <string name="exam2_1503_subject_number">18</string>
+
+    <string name="exam2_1503_subject_1_name">국어</string>
+    <string name="exam2_1503_subject_1_1_raw">92</string>
+    <string name="exam2_1503_subject_1_2_raw">84</string>
+    <string name="exam2_1503_subject_1_3_raw">75</string>
+    <string name="exam2_1503_subject_1_4_raw">63</string>
+
+    <string name="exam2_1503_subject_2_name">수학 A형</string>
+    <string name="exam2_1503_subject_2_1_raw">72</string>
+    <string name="exam2_1503_subject_2_2_raw">59</string>
+    <string name="exam2_1503_subject_2_3_raw">47</string>
+    <string name="exam2_1503_subject_2_4_raw">35</string>
+
+    <string name="exam2_1503_subject_3_name">수학 B형</string>
+    <string name="exam2_1503_subject_3_1_raw">92</string>
+    <string name="exam2_1503_subject_3_2_raw">81</string>
+    <string name="exam2_1503_subject_3_3_raw">69</string>
+    <string name="exam2_1503_subject_3_4_raw">53</string>
+
+    <string name="exam2_1503_subject_4_name">영어</string>
+    <string name="exam2_1503_subject_4_1_raw">95</string>
+    <string name="exam2_1503_subject_4_2_raw">88</string>
+    <string name="exam2_1503_subject_4_3_raw">76</string>
+    <string name="exam2_1503_subject_4_4_raw">62</string>
+
+    <string name="exam2_1503_subject_5_name">생활과 윤리</string>
+    <string name="exam2_1503_subject_5_1_raw">47</string>
+    <string name="exam2_1503_subject_5_2_raw">44</string>
+    <string name="exam2_1503_subject_5_3_raw">41</string>
+    <string name="exam2_1503_subject_5_4_raw">37</string>
+
+    <string name="exam2_1503_subject_6_name">윤리와 사상</string>
+    <string name="exam2_1503_subject_6_1_raw">35</string>
+    <string name="exam2_1503_subject_6_2_raw">31</string>
+    <string name="exam2_1503_subject_6_3_raw">26</string>
+    <string name="exam2_1503_subject_6_4_raw">21</string>
+
+    <string name="exam2_1503_subject_7_name">한국사</string>
+    <string name="exam2_1503_subject_7_1_raw">40</string>
+    <string name="exam2_1503_subject_7_2_raw">35</string>
+    <string name="exam2_1503_subject_7_3_raw">30</string>
+    <string name="exam2_1503_subject_7_4_raw">25</string>
+
+    <string name="exam2_1503_subject_8_name">한국지리</string>
+    <string name="exam2_1503_subject_8_1_raw">41</string>
+    <string name="exam2_1503_subject_8_2_raw">37</string>
+    <string name="exam2_1503_subject_8_3_raw">32</string>
+    <string name="exam2_1503_subject_8_4_raw">27</string>
+
+    <string name="exam2_1503_subject_9_name">세계사</string>
+    <string name="exam2_1503_subject_9_1_raw">48</string>
+    <string name="exam2_1503_subject_9_2_raw">44</string>
+    <string name="exam2_1503_subject_9_3_raw">39</string>
+    <string name="exam2_1503_subject_9_4_raw">31</string>
+
+    <string name="exam2_1503_subject_10_name">세계지리</string>
+    <string name="exam2_1503_subject_10_1_raw">48</string>
+    <string name="exam2_1503_subject_10_2_raw">47</string>
+    <string name="exam2_1503_subject_10_3_raw">44</string>
+    <string name="exam2_1503_subject_10_4_raw">40</string>
+
+    <string name="exam2_1503_subject_11_name">동아시아사</string>
+    <string name="exam2_1503_subject_11_1_raw">45</string>
+    <string name="exam2_1503_subject_11_2_raw">43</string>
+    <string name="exam2_1503_subject_11_3_raw">39</string>
+    <string name="exam2_1503_subject_11_4_raw">33</string>
+
+    <string name="exam2_1503_subject_12_name">법과 정치</string>
+    <string name="exam2_1503_subject_12_1_raw">37</string>
+    <string name="exam2_1503_subject_12_2_raw">33</string>
+    <string name="exam2_1503_subject_12_3_raw">27</string>
+    <string name="exam2_1503_subject_12_4_raw">22</string>
+
+    <string name="exam2_1503_subject_13_name">경제</string>
+    <string name="exam2_1503_subject_13_1_raw">40</string>
+    <string name="exam2_1503_subject_13_2_raw">32</string>
+    <string name="exam2_1503_subject_13_3_raw">25</string>
+    <string name="exam2_1503_subject_13_4_raw">20</string>
+
+    <string name="exam2_1503_subject_14_name">사회문화</string>
+    <string name="exam2_1503_subject_14_1_raw">38</string>
+    <string name="exam2_1503_subject_14_2_raw">34</string>
+    <string name="exam2_1503_subject_14_3_raw">30</string>
+    <string name="exam2_1503_subject_14_4_raw">26</string>
+
+    <string name="exam2_1503_subject_15_name">물리1</string>
+    <string name="exam2_1503_subject_15_1_raw">39</string>
+    <string name="exam2_1503_subject_15_2_raw">33</string>
+    <string name="exam2_1503_subject_15_3_raw">28</string>
+    <string name="exam2_1503_subject_15_4_raw">22</string>
+
+    <string name="exam2_1503_subject_16_name">화학1</string>
+    <string name="exam2_1503_subject_16_1_raw">41</string>
+    <string name="exam2_1503_subject_16_2_raw">35</string>
+    <string name="exam2_1503_subject_16_3_raw">30</string>
+    <string name="exam2_1503_subject_16_4_raw">24</string>
+
+    <string name="exam2_1503_subject_17_name">생명과학1</string>
+    <string name="exam2_1503_subject_17_1_raw">39</string>
+    <string name="exam2_1503_subject_17_2_raw">33</string>
+    <string name="exam2_1503_subject_17_3_raw">28</string>
+    <string name="exam2_1503_subject_17_4_raw">23</string>
+
+    <string name="exam2_1503_subject_18_name">지구과학1</string>
+    <string name="exam2_1503_subject_18_1_raw">44</string>
+    <string name="exam2_1503_subject_18_2_raw">38</string>
+    <string name="exam2_1503_subject_18_3_raw">34</string>
+    <string name="exam2_1503_subject_18_4_raw">29</string>
+
+
+
+	<string name="exam2_1506_name_full">2016학년도 6월 모의고사</string>
+    <string name="exam2_1506_name_simple">2015년 6월 모의고사</string>
+    <string name="exam2_1506_url">http://ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=201506042</string>
+    <string name="exam2_1506_implemented_year">2015</string>
+    <string name="exam2_1506_implemented_month">6</string>
+    <string name="exam2_1506_implemented_date">4</string>
+    <string name="exam2_1506_subject_number">18</string>
+	<!-- name에서 1411 ,서브젝트 _1_ 수정안함... url, year , 3월꺼 조사안함 -->
+
+    <string name="exam2_1506_subject_1_name">국어</string>
+    <string name="exam2_1506_subject_1_1_raw">93</string>
+    <string name="exam2_1506_subject_1_2_raw">87</string>
+    <string name="exam2_1506_subject_1_3_raw">77</string>
+    <string name="exam2_1506_subject_1_4_raw">64</string>
+
+    <string name="exam2_1506_subject_2_name">수학 A형</string>
+    <string name="exam2_1506_subject_2_1_raw">90</string>
+    <string name="exam2_1506_subject_2_2_raw">78</string>
+    <string name="exam2_1506_subject_2_3_raw">65</string>
+    <string name="exam2_1506_subject_2_4_raw">51</string>
+
+    <string name="exam2_1506_subject_3_name">수학 B형</string>
+    <string name="exam2_1506_subject_3_1_raw">82</string>
+    <string name="exam2_1506_subject_3_2_raw">70</string>
+    <string name="exam2_1506_subject_3_3_raw">57</string>
+    <string name="exam2_1506_subject_3_4_raw">44</string>
+
+    <string name="exam2_1506_subject_4_name">영어</string>
+    <string name="exam2_1506_subject_4_1_raw">95</string>
+    <string name="exam2_1506_subject_4_2_raw">86</string>
+    <string name="exam2_1506_subject_4_3_raw">74</string>
+    <string name="exam2_1506_subject_4_4_raw">62</string>
+
+    <string name="exam2_1506_subject_5_name">생활과 윤리</string>
+    <string name="exam2_1506_subject_5_1_raw">45</string>
+    <string name="exam2_1506_subject_5_2_raw">44</string>
+    <string name="exam2_1506_subject_5_3_raw">39</string>
+    <string name="exam2_1506_subject_5_4_raw">35</string>
+
+    <string name="exam2_1506_subject_6_name">윤리와 사상</string>
+    <string name="exam2_1506_subject_6_1_raw">46</string>
+    <string name="exam2_1506_subject_6_2_raw">44</string>
+    <string name="exam2_1506_subject_6_3_raw">41</string>
+    <string name="exam2_1506_subject_6_4_raw">33</string>
+
+    <string name="exam2_1506_subject_7_name">한국사</string>
+    <string name="exam2_1506_subject_7_1_raw">47</string>
+    <string name="exam2_1506_subject_7_2_raw">43</string>
+    <string name="exam2_1506_subject_7_3_raw">36</string>
+    <string name="exam2_1506_subject_7_4_raw">26</string>
+
+    <string name="exam2_1506_subject_8_name">한국지리</string>
+    <string name="exam2_1506_subject_8_1_raw">47</string>
+    <string name="exam2_1506_subject_8_2_raw">43</string>
+    <string name="exam2_1506_subject_8_3_raw">39</string>
+    <string name="exam2_1506_subject_8_4_raw">33</string>
+
+    <string name="exam2_1506_subject_9_name">세계사</string>
+    <string name="exam2_1506_subject_9_1_raw">48</string>
+    <string name="exam2_1506_subject_9_2_raw">45</string>
+    <string name="exam2_1506_subject_9_3_raw">39</string>
+    <string name="exam2_1506_subject_9_4_raw">30</string>
+
+    <string name="exam2_1506_subject_10_name">세계지리</string>
+    <string name="exam2_1506_subject_10_1_raw">47</string>
+    <string name="exam2_1506_subject_10_2_raw">44</string>
+    <string name="exam2_1506_subject_10_3_raw">40</string>
+    <string name="exam2_1506_subject_10_4_raw">36</string>
+
+    <string name="exam2_1506_subject_11_name">동아시아사</string>
+    <string name="exam2_1506_subject_11_1_raw">48</string>
+    <string name="exam2_1506_subject_11_2_raw">44</string>
+    <string name="exam2_1506_subject_11_3_raw">39</string>
+    <string name="exam2_1506_subject_11_4_raw">38</string>
+
+    <string name="exam2_1506_subject_12_name">법과 정치</string>
+    <string name="exam2_1506_subject_12_1_raw">47</string>
+    <string name="exam2_1506_subject_12_2_raw">45</string>
+    <string name="exam2_1506_subject_12_3_raw">34</string>
+    <string name="exam2_1506_subject_12_4_raw">26</string>
+
+    <string name="exam2_1506_subject_13_name">경제</string>
+    <string name="exam2_1506_subject_13_1_raw">50</string>
+    <string name="exam2_1506_subject_13_2_raw">46</string>
+    <string name="exam2_1506_subject_13_3_raw">43</string>
+    <string name="exam2_1506_subject_13_4_raw">38</string>
+
+    <string name="exam2_1506_subject_14_name">사회문화</string>
+    <string name="exam2_1506_subject_14_1_raw">48</string>
+    <string name="exam2_1506_subject_14_2_raw">46</string>
+    <string name="exam2_1506_subject_14_3_raw">34</string>
+    <string name="exam2_1506_subject_14_4_raw">29</string>
+
+    <string name="exam2_1506_subject_15_name">물리1</string>
+    <string name="exam2_1506_subject_15_1_raw">45</string>
+    <string name="exam2_1506_subject_15_2_raw">40</string>
+    <string name="exam2_1506_subject_15_3_raw">33</string>
+    <string name="exam2_1506_subject_15_4_raw">24</string>
+
+    <string name="exam2_1506_subject_16_name">화학1</string>
+    <string name="exam2_1506_subject_16_1_raw">42</string>
+    <string name="exam2_1506_subject_16_2_raw">32</string>
+    <string name="exam2_1506_subject_16_3_raw">23</string>
+    <string name="exam2_1506_subject_16_4_raw">16</string>
+
+    <string name="exam2_1506_subject_17_name">생명과학1</string>
+    <string name="exam2_1506_subject_17_1_raw">48</string>
+    <string name="exam2_1506_subject_17_2_raw">46</string>
+    <string name="exam2_1506_subject_17_3_raw">41</string>
+    <string name="exam2_1506_subject_17_4_raw">33</string>
+
+    <string name="exam2_1506_subject_18_name">지구과학1</string>
+    <string name="exam2_1506_subject_18_1_raw">46</string>
+    <string name="exam2_1506_subject_18_2_raw">41</string>
+    <string name="exam2_1506_subject_18_3_raw">34</string>
+    <string name="exam2_1506_subject_18_4_raw">27</string>
+
+
+
+</resources>

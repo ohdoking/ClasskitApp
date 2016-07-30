@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="1"
+    android:layout_gravity="center_vertical"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp"
+    android:paddingStart="22dp"
+    android:paddingEnd="22dp"
+    android:layout_height="36dp">
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:text="d"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="0dp"/>
+
+    <ImageView
+        android:id="@+id/food_img1"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/food_img2"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/food_img3"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/food_img4"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/food_img5"
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

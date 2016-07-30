@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/timetable_icon"
+            android:title="시간표" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/menu_icon"
+            android:title="식단 조회" />
+        <item
+            android:id="@+id/nav_broadcast"
+            android:icon="@drawable/notice_icon"
+            android:title="안내방송" />
+        <item
+            android:id="@+id/nav_planner"
+            android:icon="@drawable/planner_icon"
+            android:title="플래너" />
+        <item
+            android:id="@+id/nav_grade"
+            android:icon="@drawable/grade_icon"
+            android:title="등급컷조회" />
+    </group>
+
+    <item>
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/setting_icon"
+                android:title="설정" />
+            <item
+                android:id="@+id/nav_send_friend"
+                android:icon="@drawable/share_icon"
+                android:title="친구들에게 알리기" />
+            <item
+                android:id="@+id/nav_evaluating"
+                android:icon="@drawable/heart_icon"
+                android:title="클래스킷 사랑하기" />
+        </menu>
+    </item>
+
+</menu>

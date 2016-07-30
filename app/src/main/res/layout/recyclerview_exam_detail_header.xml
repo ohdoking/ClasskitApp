@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:clickable="true" >
+    <TextView
+        android:id="@+id/recyclerview_exam_detail_header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015년 3월 모의고사"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/recyclerview_exam_detail_header_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문제 및 정답 다운로드"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent" />
+</LinearLayout>

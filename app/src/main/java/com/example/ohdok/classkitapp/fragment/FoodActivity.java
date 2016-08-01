@@ -1,6 +1,7 @@
 package com.example.ohdok.classkitapp.fragment;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -9,15 +10,23 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.ohdok.classkitapp.R;
+import com.example.ohdok.classkitapp.adapter.DashboardListAdapter;
+import com.example.ohdok.classkitapp.adapter.FoodListAdapter;
+import com.example.ohdok.classkitapp.dao.DashboardListData;
+import com.example.ohdok.classkitapp.dao.FoodData;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -29,6 +38,7 @@ public class FoodActivity extends Fragment {
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private FragmentActivity myContext;
 
+
     public static FoodActivity newInstance() {
         FoodActivity fragment = new FoodActivity();
         return fragment;
@@ -36,7 +46,7 @@ public class FoodActivity extends Fragment {
 
     @Override
     public void onAttach(Activity activity) {
-        myContext=(FragmentActivity) activity;
+        myContext = (FragmentActivity) activity;
         super.onAttach(activity);
     }
 
@@ -57,7 +67,7 @@ public class FoodActivity extends Fragment {
         //lib
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        TabLayout tabLayout = (TabLayout)view.findViewById(R.id.tabs);
+        TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
         return view;
@@ -69,6 +79,13 @@ public class FoodActivity extends Fragment {
          * fragment.
          */
         private static final String ARG_SECTION_NUMBER = "section_number";
+        public FoodListAdapter foodListAdapter;
+
+        ImageView start1;
+        ImageView start2;
+        ImageView start3;
+        ImageView start4;
+        ImageView start5;
 
         public PlaceholderFragment() {
         }
@@ -90,13 +107,25 @@ public class FoodActivity extends Fragment {
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_food, container, false);
 
-
             ListView listView = (ListView) rootView.findViewById(R.id.foodlist);
-            ArrayList<String> arrayList = new ArrayList<String>();
 
             TextView month = (TextView) rootView.findViewById(R.id.month);
             TextView scount = (TextView) rootView.findViewById(R.id.scount);
             TextView kcount = (TextView) rootView.findViewById(R.id.kcount);
+
+            start1 = (ImageView) rootView.findViewById(R.id.star1);
+            start2 = (ImageView) rootView.findViewById(R.id.star2);
+            start3 = (ImageView) rootView.findViewById(R.id.star3);
+            start4 = (ImageView) rootView.findViewById(R.id.star4);
+            start5 = (ImageView) rootView.findViewById(R.id.star5);
+
+            LinearLayout foodEvaluate = (LinearLayout) rootView.findViewById(R.id.food_evaluate);
+            foodEvaluate.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    showLocationDialog();
+                }
+            });
 
             //ImageView image1 = (ImageView) rootView.findViewById(R.id.image1);
 
@@ -112,51 +141,193 @@ public class FoodActivity extends Fragment {
             SimpleDateFormat formatTime = new SimpleDateFormat("MMM dd", Locale.KOREAN);
             String formattedDate = formatTime.format(today);
 
-            if(i == 1){
-                arrayList.add("현미밥");
-                arrayList.add("간장개장");
-                arrayList.add("깍두기");
-                arrayList.add("순대국");
-                arrayList.add("김말이");
-                arrayList.add("시금치");
+            foodListAdapter = new FoodListAdapter(getActivity());
+            if (i == 1) {
 
                 scount.setText("400");
                 kcount.setText("2500");
 
+                month.setText(formattedDate + " 조식 식단");
 
-
-                month.setText(formattedDate+" 조식 식단");
 
                 //image1.setImageResource(R.drawable.timetable_icon);
+                for (int z = 0; z < 6; z++) {
+                    FoodData data = new FoodData();
+                    ArrayList<Integer> i2 = new ArrayList<Integer>();
 
-            }
-            else if(i == 2){
-                arrayList.add("잡곡밥");
-                arrayList.add("고추장 불고기");
-                arrayList.add("배추김치");
-                arrayList.add("된장국");
-                arrayList.add("오이무침");
-                arrayList.add("김 자반");
+                    if (z == 0) {
+                        data.setFoodName("잡곡밥");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.milk_icon);
+                    } else if (z == 1) {
+                        data.setFoodName("북어국");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.buckwheat_icon);
+                        i2.add(R.drawable.pork_icon);
+                    } else if (z == 2) {
+                        data.setFoodName("김말이");
+                        i2.add(R.drawable.wheat_icon);
+                        i2.add(R.drawable.milk_icon);
+                    } else if (z == 3) {
+                        data.setFoodName("떡볶이");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.milk_icon);
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.buckwheat_icon);
+                    } else if (z == 4) {
+                        data.setFoodName("김치");
+                        i2.add(R.drawable.tomato_icon);
+                    } else if (z == 5) {
+                        data.setFoodName("감자");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.shrimp_icon);
+                    }
+
+
+                    data.setImageList(i2);
+                    foodListAdapter.addItem(data);
+                }
+
+            } else if (i == 2) {
 
                 scount.setText("150");
                 kcount.setText("2000");
-                month.setText(formattedDate+" 중식 식단");
-            }
-            else if(i == 3){
-                arrayList.add("쌀밥");
-                arrayList.add("삼겹살");
-                arrayList.add("쌈장");
-                arrayList.add("무국");
-                arrayList.add("상추");
-                arrayList.add("멸치자반");
+                month.setText(formattedDate + " 중식 식단");
+
+                for (int z = 0; z < 4; z++) {
+                    FoodData data = new FoodData();
+                    ArrayList<Integer> i2 = new ArrayList<Integer>();
+                    if (z == 0) {
+                        data.setFoodName("콩밥");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.milk_icon);
+                    } else if (z == 1) {
+                        data.setFoodName("순두부찌개");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.milk_icon);
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.buckwheat_icon);
+
+                    } else if (z == 2) {
+                        data.setFoodName("두루치기");
+                        i2.add(R.drawable.wheat_icon);
+                        i2.add(R.drawable.milk_icon);
+                    } else if (z == 3) {
+                        data.setFoodName("양파튀김");
+                        i2.add(R.drawable.tomato_icon);
+
+                    } else if (z == 4) {
+                        data.setFoodName("김치");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.buckwheat_icon);
+                        i2.add(R.drawable.pork_icon);
+                    }
+
+                    data.setImageList(i2);
+                    foodListAdapter.addItem(data);
+                }
+            } else if (i == 3) {
                 scount.setText("100");
                 kcount.setText("3000");
-                month.setText(formattedDate+" 석식 식단");
+                month.setText(formattedDate + " 석식 식단");
+
+                for (int j = 0; j < 5; j++) {
+                    FoodData data = new FoodData();
+
+                    ArrayList<Integer> i2 = new ArrayList<Integer>();
+                    if (j == 0) {
+                        data.setFoodName("흰밥");
+                        i2.add(R.drawable.milk_icon);
+                        i2.add(R.drawable.wheat_icon);
+                        i2.add(R.drawable.milk_icon);
+                    } else if (j == 1) {
+                        data.setFoodName("들개국수");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.tomato_icon);
+                    } else if (j == 2) {
+                        data.setFoodName("마른안주");
+                        i2.add(R.drawable.buckwheat_icon);
+                        i2.add(R.drawable.pork_icon);
+                    } else if (j == 3) {
+                        data.setFoodName("깻잎");
+                        i2.add(R.drawable.tomato_icon);
+                    } else if (j == 4) {
+                        data.setFoodName("고구마");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.buckwheat_icon);
+                    } else if (j == 5) {
+                        data.setFoodName("불고기");
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.milk_icon);
+                        i2.add(R.drawable.tomato_icon);
+                        i2.add(R.drawable.buckwheat_icon);
+                    }
+
+                    data.setImageList(i2);
+                    foodListAdapter.addItem(data);
+                }
+
             }
 
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, arrayList);
-            listView.setAdapter(adapter);
+//            ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, arrayList);
+
+            listView.setAdapter(foodListAdapter);
             return rootView;
+        }
+
+        private void showLocationDialog() {
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+            builder.setTitle("식단의 평점");
+//            builder.setMessage("식단의 평점을 매겨주세요");
+            builder.setSingleChoiceItems(R.array.array_list,0,null);
+
+            String positiveText = getString(android.R.string.ok);
+            builder.setPositiveButton(positiveText,
+                    new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            dialog.dismiss();
+                            int selectedPosition = ((AlertDialog)dialog).getListView().getCheckedItemPosition();
+                            Toast.makeText(getActivity(),selectedPosition+1+"",Toast.LENGTH_SHORT).show();
+
+                            start1.setBackgroundResource(R.drawable.star_grey);
+                            start2.setBackgroundResource(R.drawable.star_grey);
+                            start3.setBackgroundResource(R.drawable.star_grey);
+                            start4.setBackgroundResource(R.drawable.star_grey);
+                            start5.setBackgroundResource(R.drawable.star_grey);
+
+                            for(int j = 0; j < selectedPosition+1 ; j++){
+                                if(j == 0){
+                                    start1.setBackgroundResource(R.drawable.star_ylw);
+                                }else if(j == 1){
+                                    start2.setBackgroundResource(R.drawable.star_ylw);
+                                }
+                                else if(j == 2){
+                                    start3.setBackgroundResource(R.drawable.star_ylw);
+                                }
+                                else if(j == 3){
+                                    start4.setBackgroundResource(R.drawable.star_ylw);
+                                }
+                                else if(j == 4){
+                                    start5.setBackgroundResource(R.drawable.star_ylw);
+                                }
+                            }
+                        }
+                    });
+
+            String negativeText = getString(android.R.string.cancel);
+            builder.setNegativeButton(negativeText,
+                    new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // negative button logic
+                            dialog.dismiss();
+                        }
+                    });
+
+            AlertDialog dialog = builder.create();
+            // display dialog
+            dialog.show();
         }
     }
 
@@ -195,7 +366,6 @@ public class FoodActivity extends Fragment {
             }
             return null;
         }
-
 
 
     }

@@ -52,6 +52,29 @@ public class HomeActivity extends Fragment {
         lunchBtn = (ImageButton) view.findViewById(R.id.lunch_btn);
         dinnerBtn = (ImageButton) view.findViewById(R.id.dinner_btn);
 
+
+        if (savedInstanceState == null) {
+            breakfastBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    getFragmentManager().beginTransaction().replace(R.id.content_frame, new FoodActivity()).commit();
+                }
+            });
+            lunchBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    getFragmentManager().beginTransaction().replace(R.id.content_frame, new FoodActivity()).commit();
+                }
+            });
+            dinnerBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    getFragmentManager().beginTransaction().replace(R.id.content_frame, new FoodActivity()).commit();
+                }
+            });
+        }
+
+
         ImageIndicatorView imageIndicatorView = (ImageIndicatorView) view.findViewById(R.id.indicate_view);
         final Integer[] resArray = new Integer[] { R.drawable.home_bg_img_01, R.drawable.home_bg_img_02 };
         imageIndicatorView.setupLayoutByDrawable(resArray);
@@ -69,13 +92,21 @@ public class HomeActivity extends Fragment {
 
         for (int i = 0; i < 3; i++) {
             DashboardListData data = new DashboardListData();
-            if(i == 1){
+            if(i == 0){
                 data.setState("new");
             }
             else{
                 data.setState("old");
             }
-            data.setContent("content " + i);
+            if(i==0){
+                data.setContent("클래스킷 팀 상받았습니다.");
+            }
+            else if(i==1){
+                data.setContent("유호재는 이연희다!");
+            }
+            else if(i==2){
+                data.setContent("모두 수고하셨습니다.");
+            }
             guideListAdapter.addItem(data);
         }
 
@@ -87,7 +118,15 @@ public class HomeActivity extends Fragment {
             else{
                 data.setState("old");
             }
-            data.setContent("pcontent " + i);
+            if(i==0){
+                data.setContent("클래스킷 팀 상받아서 회식합니다.");
+            }
+            else if(i==1){
+                data.setContent("상준이가 스플래시화면 만들었다.");
+            }
+            else if(i==2){
+                data.setContent("유니톤 7월 31일");
+            }
             planListAdapter.addItem(data);
         }
 

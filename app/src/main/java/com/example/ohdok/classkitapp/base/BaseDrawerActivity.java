@@ -1,5 +1,7 @@
 package com.example.ohdok.classkitapp.base;
 
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,7 +22,9 @@ import com.example.ohdok.classkitapp.fragment.FoodActivity;
 import com.example.ohdok.classkitapp.fragment.GradeFragment;
 import com.example.ohdok.classkitapp.fragment.GuideActivity;
 import com.example.ohdok.classkitapp.fragment.HomeActivity;
-import com.example.ohdok.classkitapp.TimeTableActivity;
+import com.example.ohdok.classkitapp.fragment.PlannerFragment;
+import com.example.ohdok.classkitapp.fragment.SettingFragment;
+import com.example.ohdok.classkitapp.fragment.TimeTableActivity;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnMenuTabClickListener;
 
@@ -175,7 +179,7 @@ public class BaseDrawerActivity extends BaseAppCompatActivity
         if (id == R.id.nav_food) {
             fragmentClass = FoodActivity.class;
         } else if (id == R.id.nav_planner) {
-            fragmentClass = GuideActivity.class;
+            fragmentClass = PlannerFragment.class;
         } else if (id == R.id.nav_timetable) {
             fragmentClass = TimeTableActivity.class;
         } else if (id == R.id.nav_broadcast) {
@@ -183,18 +187,42 @@ public class BaseDrawerActivity extends BaseAppCompatActivity
         } else if (id == R.id.nav_grade) {
             fragmentClass = GradeFragment.class;
         } else if (id == R.id.nav_setting) {
-            fragmentClass = FoodActivity.class;
+            fragmentClass = SettingFragment.class;
+        }else if (id == R.id.nav_send_friend) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "클래스킷 이용해보세요.");
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
+        }else if (id == R.id.nav_evaluating) {
+            Uri uri = Uri.parse("market://details?id=" + getApplicationContext().getPackageName());
+            Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
+            // To count with Play market backstack, After pressing back button,
+            // to taken back to our application, we need to add following flags to intent.
+            goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY |
+                    Intent.FLAG_ACTIVITY_NEW_DOCUMENT |
+                    Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+            try {
+                startActivity(goToMarket);
+            } catch (ActivityNotFoundException e) {
+                startActivity(new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("http://play.google.com/store/apps/details?id=" + getApplicationContext().getPackageName())));
+            }
         }
         try {
             fragment = (Fragment) fragmentClass.newInstance();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+        if(!(id == R.id.nav_evaluating || id == R.id.nav_send_friend)){
+
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            drawer.closeDrawer(GravityCompat.START);
+        }
         return true;
     }
 

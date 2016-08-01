@@ -1,4 +1,4 @@
-package com.example.ohdok.classkitapp;
+package com.example.ohdok.classkitapp.activity;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -10,7 +10,6 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,6 +17,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader;
+import com.example.ohdok.classkitapp.dao.Item_Exam_Detail;
+import com.example.ohdok.classkitapp.R;
+import com.example.ohdok.classkitapp.adapter.Adapter_Exam_Detail;
 
 import java.util.ArrayList;
 

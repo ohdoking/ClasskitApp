@@ -1,11 +1,14 @@
 package com.example.ohdok.classkitapp.adapter;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.ohdok.classkitapp.common.FoodViewHolder;
@@ -56,6 +59,10 @@ public class FoodListAdapter extends BaseAdapter {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             view = inflater.inflate(R.layout.food_listview_item,null);
 
+            LinearLayout l = (LinearLayout) view.findViewById(R.id.food_layout);
+            if(i%2 == 1) {
+                l.setBackgroundColor(Color.parseColor("#eeeeee"));
+            }
             holder.foodName = (TextView) view.findViewById(R.id.food_name);
             holder.food1 = (ImageView) view.findViewById(R.id.food_img1);
             holder.food2 = (ImageView) view.findViewById(R.id.food_img2);
@@ -74,20 +81,21 @@ public class FoodListAdapter extends BaseAdapter {
         holder.foodName.setText(mDataItem.getFoodName());
 
         int count = 5;
+        Log.i("ohdoking3",mDataItem.getImageList().size()+"");
         if(mDataItem.getImageList().size() < 5){
             count = mDataItem.getImageList().size();
         }
-        for(int j = 0 ; j<count  ;j++){
+        for(int j = 0 ; j<count ;j++){
             if(j == 0){
-                holder.food1.setBackgroundResource(mDataItem.getImageList().get(i));
+                holder.food1.setBackgroundResource(mDataItem.getImageList().get(j));
             }else if(j == 1){
-                holder.food2.setBackgroundResource(mDataItem.getImageList().get(i));
+                holder.food2.setBackgroundResource(mDataItem.getImageList().get(j));
             }else if(j == 2){
-                holder.food3.setBackgroundResource(mDataItem.getImageList().get(i));
+                holder.food3.setBackgroundResource(mDataItem.getImageList().get(j));
             }else if(j == 3){
-                holder.food4.setBackgroundResource(mDataItem.getImageList().get(i));
+                holder.food4.setBackgroundResource(mDataItem.getImageList().get(j));
             }else if(j == 4){
-                holder.food1.setBackgroundResource(mDataItem.getImageList().get(i));
+                holder.food1.setBackgroundResource(mDataItem.getImageList().get(j));
             }
         }
 

@@ -1,15 +1,18 @@
-package com.example.ohdok.classkitapp;
+package com.example.ohdok.classkitapp.adapter;
 
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.ohdok.classkitapp.activity.Activity_Exam_Detail;
+import com.example.ohdok.classkitapp.activity.Activity_Exam_Select;
+import com.example.ohdok.classkitapp.dao.Item_Exam;
+import com.example.ohdok.classkitapp.R;
 
 import java.util.List;
 

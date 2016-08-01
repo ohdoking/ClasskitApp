@@ -17,14 +17,12 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader;
-import com.example.ohdok.classkitapp.Adapter_Exam;
-import com.example.ohdok.classkitapp.Item_Exam;
+import com.example.ohdok.classkitapp.adapter.Adapter_Exam;
+import com.example.ohdok.classkitapp.dao.Item_Exam;
 import com.example.ohdok.classkitapp.R;
 
 import java.util.ArrayList;

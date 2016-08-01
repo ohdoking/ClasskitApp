@@ -3,12 +3,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    android:paddingTop="320dp"
+    android:paddingRight="52.5dp"
+    android:paddingLeft="52.5dp"
     tools:context=".fragment.MainActivity">
 
-    <Button
-        android:id="@+id/dashBtn"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="dashboard!" />
+        android:hint="E-Mail"
+        android:inputType="textWebEmailAddress" />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_btn" />
+
+    <com.nhn.android.naverlogin.ui.view.OAuthLoginButton
+        android:id="@+id/buttonOAuthLoginImg"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/naver_login_btn" />
+
 </LinearLayout>

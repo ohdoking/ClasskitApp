@@ -1,4 +1,4 @@
-package com.example.ohdok.classkitapp;
+package com.example.ohdok.classkitapp.fragment;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.ohdok.classkitapp.R;
 
 public class TimeTableActivity extends Fragment {
 
@@ -23,6 +25,8 @@ public class TimeTableActivity extends Fragment {
         Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
         toolbar.setTitleTextColor(Color.BLACK);
         toolbar.setNavigationIcon(R.drawable.menu_icon_black);
+
+
 
 
 // Inflate the layout for this fragment

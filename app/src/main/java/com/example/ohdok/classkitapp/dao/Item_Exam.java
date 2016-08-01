@@ -1,4 +1,4 @@
-package com.example.ohdok.classkitapp;
+package com.example.ohdok.classkitapp.dao;
 
 public class Item_Exam {
 

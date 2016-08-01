@@ -116,6 +116,7 @@
                 android:background="@drawable/allergy_info" />
 
             <LinearLayout
+                android:id="@+id/food_evaluate"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center_horizontal"

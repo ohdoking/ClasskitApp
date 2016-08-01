@@ -1,8 +1,5 @@
-package com.example.ohdok.classkitapp;
+package com.example.ohdok.classkitapp.activity;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -16,6 +13,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.bartoszlipinski.recyclerviewheader.RecyclerViewHeader;
+import com.example.ohdok.classkitapp.dao.Item_Exam;
+import com.example.ohdok.classkitapp.R;
+import com.example.ohdok.classkitapp.adapter.Adapter_Exam;
 
 import java.util.ArrayList;
 
